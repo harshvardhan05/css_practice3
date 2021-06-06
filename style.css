@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: #2e354f;
+    font-size:18px;
+}
+
+h1,
+h2,
+strong{
+    font-weight: 900px;
+}
+
+/* ---Typography--- */
+h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+h2{
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a{
+    color: #ef5839;
+}
+
+a:hover,
+a:focus{
+    color: magenta;
+}
+
+/* ---Buttons---- */
+.btn{
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none; 
+}
+
+.contact-btn{
+    background: #ef5839;
+    color: #fff;
+}
+
+.contact-btn:hover,
+.contact-btn:focus{
+    background: #393e46;
+}
+
+.moreinfo-btn{
+    background: #fff;
+    color: yellowgreen
+}
+
+.moreinfo-btn:hover,
+.moreinfo-btn:focus{
+    background: #29bb89;
+}
+
+/* ---Layout---- */
+header{
+    background: #2e354f;
+    padding: 45px 0;
+    color: #fff;
+}
+
+section{
+    padding: 45px 0;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+
+.section-second{
+    background: #2e354f;
+    color: #fff;
+}
+
